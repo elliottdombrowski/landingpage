@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="USF=8">
+        <title>Landing Page!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<!-- Accidentally found the solved code looking for any sort of references to original code for page structure.
+So I noted tags I didn't know, researched them, and built from scratch. -->
+<!-- I did take the fonts from the Solved code. I thought it was cool. -->
+    <body>
+        <a name="top"></a>
+        <header>
+            <!-- Nav bar with links to Contact, Portfolio, Github. -->
+        <nav>
+            <ul>
+                <li><a href="https://github.com/elliottdombrowski" target="_blank">Github</a></li>
+                <li><a href="mailto:elliottroyal@me.com">Portfolio</a></li>
+                <li><a href="#contactme">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section class="imagebody">
+            <h1 class="center">My New Website!</h1>
+            <img src="images/image-1.png" alt="Coming Soon">
+            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+            </section>
+
+            <!-- Found the code for Form on StackOverflow.com -->
+
+            <section class="contact">
+                <h2 class="center">Contact Me</h2>
+                <form>
+                    <div class="block">
+                        <label>Name:</label>
+                        <input type="text"/>
+                    </div>
+                    <div class="block">
+                        <label>Email:</label>
+                        <input type="text"/>
+                    </div>
+                    <button type="submit" class="center">Send</button>
+                </form>
+                
+            </section>
+
+            <footer class="block">
+                <a name="contactme" class="center"><a href="#top">© 2021 My New Website Productions</a></a>
+            </footer>
+        </main>
+    </body>
+</html>
