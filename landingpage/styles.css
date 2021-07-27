@@ -31,8 +31,8 @@ img {
 
 header {
     width: 100%;
-    height: 100%;
     border-bottom: 10px solid #e4c2b2;
+    position: fixed;
 }
 
 nav {
@@ -63,6 +63,10 @@ li, ul {
     background: #e8cdc1;
     border-top: 5px solid #e3c2ae;
     padding: 10px;
+}
+
+.imagebody {
+    padding: 100px;
 }
 
 footer {
